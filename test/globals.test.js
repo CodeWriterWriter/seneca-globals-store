@@ -10,7 +10,7 @@ var shared = require('seneca-store-test')
 
 // var si = seneca({log:'silent'})
 var si = seneca()
-si.use(require('..'), {path:'/path/to/globalsroot/mgr'})
+si.use(require('..'), {path:'/Users/Shared/GlobalsDB'})
 
 si.__testcount = 0
 var testcount = 0
