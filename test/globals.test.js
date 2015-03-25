@@ -7,10 +7,10 @@ var seneca = require('seneca')
 
 var shared = require('seneca-store-test')
 
+var rootOfGlobalsInstall = process.env.GLOBALS_HOME;
 
-// var si = seneca({log:'silent'})
-var si = seneca()
-si.use(require('..'), {path:'/Users/Shared/GlobalsDB'})
+var si = seneca({log:'silent'})
+si.use(require('..'), {path:rootOfGlobalsInstall})
 
 si.__testcount = 0
 var testcount = 0
