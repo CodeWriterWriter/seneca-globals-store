@@ -7,6 +7,12 @@ var seneca = require('seneca')
 
 var shared = require('seneca-store-test')
 
+var Lab = require('lab')
+var lab = exports.lab = Lab.script()
+
+var describe = lab.describe
+var it = lab.it
+
 var rootOfGlobalsInstall = process.env.GLOBALS_HOME;
 
 var si = seneca({log:'silent'})
