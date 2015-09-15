@@ -1,6 +1,6 @@
 {
   "name": "seneca-globals-store",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Seneca data store plugin for Globals DB",
   "main": "globals-store.js",
   "scripts": {
