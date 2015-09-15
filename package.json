@@ -4,7 +4,7 @@
   "description": "Seneca data store plugin for Globals DB",
   "main": "globals-store.js",
   "scripts": {
-    "test": "node test/globals.kill.js && ./node_modules/.bin/mocha test/*.test.js"
+    "test": "node test/globals.kill.js && ./node_modules/.bin/lab test  -r console -v"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "lab": "^5.16.1",
     "lodash": "~2.4.1"
   },
   "devDependencies": {
